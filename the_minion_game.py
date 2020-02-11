@@ -1,13 +1,7 @@
 def minion_game(string):
-	
 	vowels = 'AEIOU'
 	stuart = 0
 	kevin = 0
-	
-	'''
-	if (len(string) > 10^6) or (string.isupper() == False):
-		print 'That was an invalid string!'
-	'''
 	
 	for c, v in enumerate(string):
 		if v in vowels:
@@ -21,3 +15,5 @@ def minion_game(string):
 		print('Stuart {}'.format(stuart))
 	else:
 		print('Draw')
+
+if __name__ == '__main__':

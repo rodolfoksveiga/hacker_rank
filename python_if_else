@@ -1,0 +1,2 @@
+string = 'rodolfo maravilhoso'
+print(string.strip())
