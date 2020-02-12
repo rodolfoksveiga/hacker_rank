@@ -1,4 +1,7 @@
-
+def function(student_marks, query_name):
+	percent = sum(student_marks[query_name])/len(student_marks[query_name])
+	print(len(student_marks[query_name]))
+	return(percent)
 
 if __name__ == '__main__':
     n = int(input())
@@ -8,3 +11,4 @@ if __name__ == '__main__':
         scores = list(map(float, line))
         student_marks[name] = scores
     query_name = input()
+    print(function(student_marks, query_name))
