@@ -1,7 +1,10 @@
 def function(s):
-	for i in range(len(s)):
-		if s[i].isalnum():
-			print(s[i].isalnum())		
+	print(any(c.isalnum() for c in s))
+	print(any(c.isalpha() for c in s))
+	print(any(c.isdigit() for c in s))
+	print(any(c.islower() for c in s))
+	print(any(c.isupper() for c in s))	
 
 if __name__ == '__main__':
     s = input()
+    function(s)

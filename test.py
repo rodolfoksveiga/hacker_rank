@@ -1,3 +1,2 @@
-x = 'rodox_'
-
-print(x.isalnum())
+x = [[], []]
+print(x.type())
